@@ -150,7 +150,7 @@ function App() {
       <Content>
         <p>Do you find yourself wanting a hat really badly, but don't know which one is right for you?</p>
         <p>Why use your own intelligence to figure it out, when you can use</p>
-        <img src="/ai.svg" />
+        <img src="/ai.svg" alt="Artifical Intelligence" />
         <p>Upload a picture of your face, and we will match you with a hat</p>
         {(!loading & hat === null) ? (
           <div>
